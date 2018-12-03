@@ -16,7 +16,7 @@ client.on('message', msg => {
  client.on('guildMemberAdd', (member) => {
 let channel = client.channels.get('519210555081490442')
 if(member.user.bot) {
-channel.send(``بكتابة ` انا انسان  ${membe} اتبت نفسك يا`)
+channel.send(`بكتابة انا انسان  ${membe} اتبت نفسك يا`)
 }
 })
 client.on('message', message => {
