@@ -18,7 +18,7 @@ let channel = client.channels.get('519210555081490442')
 if(member.user.bot) {
 channel.send(`بكتابة انا انسان  ${member} اتبت نفسك يا`)
 }
-})
+});
 client.on('message', message => {
 if(message.content == 'انا انسان') {
 message.guild.roles.find('name','human');
