@@ -21,7 +21,7 @@ channel.send(`بكتابة انا انسان  ${membe} اتبت نفسك يا`)
 })
 client.on('message', message => {
 if(message.content == 'انا انسان') {
-message.guild.roles.find('name', 'هنا اسم رتبة الانسان بعد الاختبار`);
+message.guild.roles.find('name', 'هنا اسم رتبة الانسان بعد الاختبار');
 }
 });
 
